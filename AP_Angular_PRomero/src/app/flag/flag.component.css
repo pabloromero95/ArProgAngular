@@ -1,0 +1,82 @@
+.flag {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-80deg, #f8f7f6, #525fa0, #171a5081);
+    background-size: 200% 200%;
+	animation: gradient 5s ease infinite;
+    z-index: -10;
+    overflow-x: hidden;
+    border-bottom: 3px solid black;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#prlogo {
+    width: 40%;
+    height: 40%;
+    margin:0 0 0 -3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-logo {
+    background-color: white;
+    height: 40vh;
+    margin-top:30vh;
+}
+
+#prlogo img {
+    max-height: 35vh;
+    max-width: 35vw;
+    min-width: 240px;
+    z-index: 10;
+    background: linear-gradient(220deg, #d6e90c, #d8c91c81);
+    animation: gradient 1s ease infinite;
+    border-radius: 50%;
+    padding-top: 5px;
+    margin: 3vh;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aplogo {
+    margin-left: 4em;  
+}
+
+#aplogo img {
+    box-sizing:content-box;
+    max-height: 4em;
+    max-width: 16em;
+    margin-left: -1em;
+}
+
+.nav-link:hover {
+    color:mediumblue;
+    text-decoration: underline;
+
+}
+.nav-link span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(225, 223, 220, 0.8);
+    margin: 8px 2px 2px 2px;
+    padding-top: 4px;
+    width: 4em;
+    border-radius:5px 2px;
+}

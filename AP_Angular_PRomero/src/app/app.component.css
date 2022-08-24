@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #7481c4;
+}
+
+
+.profileImg img {
+    object-fit: scale-down;
+    max-width: 70%;
+    min-width: 40px;
+}
+
+
+
+.row.infoTitle {
+    background-color: rgb(100, 255, 255, .3);
+    border-radius: 3%;
+    min-height: 2em;
+}
+.row.data {
+    background-color: rgba(225, 223, 220, 0.7);
+    border-radius: 3%;
+    min-height: 3em;
+}
+
+.row.data div:nth-child(2) {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.butn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 1em 0 0;
+   
+}
+
+.butn:hover {
+    color: blue;
+}
+.btn:hover {
+    color:blue;
+    background-color: rgba(225, 223, 220, 0.7);
+}
+
+.about-text {
+    min-width: 18rem;
+    text-align: center;
+}
+.space{
+    height: 20vh;
+}
